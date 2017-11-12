@@ -60,8 +60,3 @@ typings/
 #intellij
 .idea
 *.iml
-
-
-#I use scss so ignore these
-public/stylesheets/*.css
-public/stylesheets/*.css.map

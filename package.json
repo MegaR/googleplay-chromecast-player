@@ -3,16 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js",
+    "debug": "nodemon app.js --email=%EMAIL% --password=%PASSWORD%"
   },
   "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.0",
-    "node-sass-middleware": "0.9.8",
-    "serve-favicon": "~2.4.5"
+    "args-parser": "^1.1.0",
+    "express": "^4.16.2",
+    "playmusic": "^2.3.0",
+    "promisify-node": "^0.4.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
